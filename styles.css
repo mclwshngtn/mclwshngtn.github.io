@@ -1,0 +1,62 @@
+body{
+    text-align: center;
+    background-color: #F6F4EB;
+    color:#4682A9;
+}
+h1{
+    font-size: 5.625rem;
+    margin: 50px auto 0 auto;
+}
+img{
+    border: 5px solid #4682A9;
+}
+.top-container{
+    background: rgb(35,75,100);
+    background: linear-gradient(45deg, rgba(35,75,100,1) 0%, rgba(70,130,169,1) 33%, rgba(145,200,228,1) 67%);
+    background-color: #91C8E4;
+    position: relative;
+    padding-top: 200px;
+    padding-bottom: 350px;
+    color: #35617e;
+}
+.middle-container {
+    margin: 100px 0;
+}
+.text-body-emphasis{
+    color: #4682A9 !important;
+}
+.bottom-container {
+    background-color: #91C8E4;
+    padding: 50px 0 20px;
+}
+.parent {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(1, 1fr);
+    width: 75%;
+    margin: 100px auto 50px auto;
+    text-align: center;
+    row-gap: 2rem;
+    column-gap: 8rem;
+}
+
+.parent-2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: repeat(1, 1fr);
+    width: 75%;
+    margin: 100px auto 50px auto;
+    text-align: center;
+    row-gap: 2rem;
+    column-gap: 8rem;
+}
+@media (max-width: 900px) { /* Replace with 360 or whatever you intend to */
+    .parent { 
+        grid-template-columns: 1fr; /* One column */
+        grid-template-rows: repeat(2,1fr); /* Five rows */
+    }
+    .parent-2 { 
+        grid-template-columns: 1fr; /* One column */
+        grid-template-rows: repeat(2,1fr); /* Five rows */
+    }
+}
