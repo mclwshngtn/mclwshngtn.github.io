@@ -60,5 +60,5 @@ img{
         grid-template-rows: repeat(2,1fr); /* Five rows */
     }
     img{
-        max-width: 110% !important;
+        max-width: 125% !important;
 }
